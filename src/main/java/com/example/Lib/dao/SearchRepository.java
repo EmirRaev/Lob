@@ -1,6 +1,5 @@
 package com.example.Lib.dao;
 
-import com.example.Lib.entity.Genre;
 import com.example.Lib.entity.Search;
 import org.springframework.data.jpa.repository.JpaRepository;
 

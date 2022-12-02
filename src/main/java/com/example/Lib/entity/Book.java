@@ -1,5 +1,6 @@
 package com.example.Lib.entity;
 
+import com.example.Lib.enums.Genre;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -20,6 +21,10 @@ public class Book {
 
     @Column (name = "NAME")
     private String name;
+
+    @Column (name = "GENRE")
+    @Enumerated(EnumType.STRING)
+    private Genre genre;
 
 }
 
